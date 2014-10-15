@@ -1,4 +1,4 @@
-FLAGS=-std=c++11 -Wall -Wextra 
+FLAGS=-Wall -Wextra 
 
 all: main testing
 
