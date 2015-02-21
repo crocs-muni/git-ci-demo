@@ -22,6 +22,12 @@ The project uses GNU make for building. To build, run 'make' in the root directo
 * **main-test** build the binary running tests
 * **clean** remove all intermediate object files
 
+## Running
+
+The main binary is not configurable.
+
+The testing binary responds to standard CATCH arguments, see [the documentation](https://github.com/philsquared/Catch/blob/master/docs/command-line.md).
+
 ## Authors and licence
 
 This project is developed at the [Centre for Research on Cryptography and Security](http://www.fi.muni.cz/research/crocs/), [Masaryk University](http://www.muni.cz/), Brno, Czech Republic. The initial version was authored by Martin Ukrop in autumn 2014 for the purposes of [CRoCS OpenLab](http://crcs.cz/openlab).
