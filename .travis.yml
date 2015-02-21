@@ -1,6 +1,14 @@
+# TravisCI build settings file
+# For more info, see http://docs.travis-ci.com/user/getting-started/
+# To validate your .travis.yml, go to http://lint.travis-ci.org/
+
+# setting the project language
 language: cpp
+
+# setting compilers, do 2 separate sub-builds for gcc and clang
 compiler:
   - gcc
   - clang
-# Change this to your needs
+
+# script to run after build (run tests, etc.)
 script: make test
