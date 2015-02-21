@@ -3,7 +3,7 @@ Demo for GitHub and TravisCI integration
 
 This repository contains a sample C++ project demonstrating the capabilities of integrating GitHub with an integration system TravisCI. 
 
-Automatic build status: TBA
+Automatic build status: [![Build Status](https://travis-ci.org/crocs-muni/git-travis-demo.svg?branch=master)](https://travis-ci.org/crocs-muni/git-travis-demo)
 
 ## Functionality
 
