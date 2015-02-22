@@ -11,8 +11,10 @@
 #include "catch.hpp"
 
 TEST_CASE("Factorial testing", "[factorial]") {
-	REQUIRE(MyMath::factorial(1) == 1);
-	REQUIRE(MyMath::factorial(2) == 2);
-	REQUIRE(MyMath::factorial(3) == 6);
-	REQUIRE(MyMath::factorial(10) == 3628800);
+    CHECK(MyMath::factorial(1) == 1);
+    CHECK(MyMath::factorial(2) == 2);
+    CHECK(MyMath::factorial(3) == 6);
+    CHECK(MyMath::factorial(10) == 3628800);
+    CHECK(MyMath::factorial(-1) == 0);
+    CHECK(MyMath::factorial(25) == 15511210043330985984000000);
 }
