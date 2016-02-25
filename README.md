@@ -1,9 +1,12 @@
 Demo for GitHub and TravisCI integration
 ========================================
 
-This repository contains a sample C++ project demonstrating the capabilities of integrating GitHub with an integration system TravisCI. 
+This repository contains a sample C++ project demonstrating the capabilities of integrating GitHub with an continuous integration system TravisCI and AppVeyor. 
 
-Automatic build status: [![Build Status](https://travis-ci.org/crocs-muni/git-travis-demo.svg?branch=master)](https://travis-ci.org/crocs-muni/git-travis-demo) (intentional failing tests for demonstration, click the image)
+Automatic build status:
+
+* TravisCI: [![Build Status](https://travis-ci.org/crocs-muni/git-travis-demo.svg?branch=master)](https://travis-ci.org/crocs-muni/git-travis-demo) (intentional failing tests for demonstration, click the image)
+* AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/j7h1cfeb0jlp5v6m?svg=true)](https://ci.appveyor.com/project/mathius/git-travis-demo)
 
 ## Functionality
 
@@ -15,12 +18,14 @@ Furthermore, this project illustrates the repository guidelines for projects at 
 
 ## Build process
 
-The project uses GNU make for building. To build, run 'make' in the root directory. The following targets are available:
+The project uses GNU Make for building. To build, run 'make' in the root directory. The following targets are available:
 
 * **all** (automatic) build both main and testing binary
 * **main** build the main binary
 * **main-test** build the binary running tests
 * **clean** remove all intermediate object files
+
+Another option is to load a MS Visual Studio solution file **ci-demo** (or use it for MSBuild). The solution defines 2 projects **ci-demo** and **ci-demo-testing** corresponding to *main* and *main-test* targets of GNU Make respectably.
 
 ## Running
 

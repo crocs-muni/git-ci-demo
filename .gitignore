@@ -34,3 +34,4 @@ main
 # Visual studio user files
 *.suo
 *.sdf
+*.opensdf
