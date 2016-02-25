@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ci-demo", "ci-demo.vcxproj", "{F8B1912A-77C2-40BA-8008-9F13F691544B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ci-demo-testing", "ci-demo-testing.vcxproj", "{79806519-7CAD-4123-A851-0B125E700533}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8B1912A-77C2-40BA-8008-9F13F691544B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8B1912A-77C2-40BA-8008-9F13F691544B}.Debug|Win32.Build.0 = Debug|Win32
+		{F8B1912A-77C2-40BA-8008-9F13F691544B}.Release|Win32.ActiveCfg = Release|Win32
+		{F8B1912A-77C2-40BA-8008-9F13F691544B}.Release|Win32.Build.0 = Release|Win32
+		{79806519-7CAD-4123-A851-0B125E700533}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79806519-7CAD-4123-A851-0B125E700533}.Debug|Win32.Build.0 = Debug|Win32
+		{79806519-7CAD-4123-A851-0B125E700533}.Release|Win32.ActiveCfg = Release|Win32
+		{79806519-7CAD-4123-A851-0B125E700533}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

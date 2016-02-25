@@ -3,6 +3,8 @@
 *.lo
 *.o
 *.obj
+[dD]ebug/*
+[rR]elease/*
 
 # Precompiled Headers
 *.gch
@@ -28,3 +30,7 @@
 *.app
 main-test
 main
+
+# Visual studio user files
+*.suo
+*.sdf
