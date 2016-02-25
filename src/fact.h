@@ -1,5 +1,5 @@
 /** 
- * @file main.cpp
+ * @file fact.h
  * @author Martin Ukrop
  * @licence MIT Licence
  */
