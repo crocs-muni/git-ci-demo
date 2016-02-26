@@ -1,0 +1,26 @@
+﻿version: 1.0.{build}
+configuration:
+- Release
+- Debug
+build:
+  project: ci-demo.sln
+  parallel: true
+  verbosity: minimal
+test_script:
+- ps: '& $env:APPVEYOR_BUILD_FOLDER\$env:configuration\ci-demo-testing.exe'
+artifacts:
+- path: $(configuration)\ci-demo-testing.exe
+  name: Binary
+deploy:
+- provider: GitHub
+  auth_token:
+    secure: dRHL/96tzvyY0f3ENik+FQhDJs0Jvi1CWsu1wcGP6Hyn1fVlbnx7AnYoJlkuqC8f
+  artifact: Binary
+  draft: true
+notifications:
+- provider: Email
+  to:
+  - mukrop@mail.muni.cz
+  on_build_success: false
+  on_build_failure: true
+  on_build_status_changed: true
