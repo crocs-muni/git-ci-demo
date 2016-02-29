@@ -1,4 +1,4 @@
-Demo for GitHub and TravisCI integration
+Demo for GitHub and CI integration
 ========================================
 
 This repository contains a sample C++ project demonstrating the capabilities of integrating GitHub with an continuous integration system TravisCI and AppVeyor. 
