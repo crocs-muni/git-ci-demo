@@ -5,7 +5,7 @@ This repository contains a sample C++ project demonstrating the capabilities of 
 
 Automatic build status:
 
-* TravisCI: [![Build Status](https://travis-ci.org/crocs-muni/git-travis-demo.svg?branch=master)](https://travis-ci.org/crocs-muni/git-travis-demo) (intentional failing tests for demonstration, click the image)
+* TravisCI: [![Build Status](https://travis-ci.org/crocs-muni/git-ci-demo.svg?branch=master)](https://travis-ci.org/crocs-muni/git-travis-demo) (intentional failing tests for demonstration, click the image)
 * AppVeyor: [![Build status](https://ci.appveyor.com/api/projects/status/j7h1cfeb0jlp5v6m?svg=true)](https://ci.appveyor.com/project/mathius/git-travis-demo) (intentional failing tests for demonstration, click the image)
 
 ## Functionality
