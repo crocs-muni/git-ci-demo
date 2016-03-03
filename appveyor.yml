@@ -11,12 +11,7 @@ test_script:
 artifacts:
 - path: $(configuration)\ci-demo-testing.exe
   name: Binary
-deploy:
-- provider: GitHub
-  auth_token:
-    secure: dRHL/96tzvyY0f3ENik+FQhDJs0Jvi1CWsu1wcGP6Hyn1fVlbnx7AnYoJlkuqC8f
-  artifact: Binary
-  draft: true
+deploy: off
 notifications:
 - provider: Email
   to:
